@@ -6,9 +6,15 @@
       <section>
         <h4>About</h4>
         <p>
-          Hi, I'm a developer and university student, with a passion for well written and designed code, whatever the language.</p>
-        <p>I also enjoy a more hands-on approach to development and I occasionally tinker with 
-          Arduino projects in my spare time. You can see some of my projects in the following page.
+          Hi, I'm a developer and university student, with a passion for well written and 
+          designed code, whatever the language.</p>
+        <p> I prefer to work with <strong>free and open source software </strong>whenever possible, and I would
+          like my work to have a positive impact on the planet, so I focus my attention and passion
+          on <strong>green energy and sustainable projects </strong> of any form.
+        </p>
+        <p>
+          I also love to work on embedded software, close to the silicon, understanding the low-level 
+          mechanism of the hardware. Hence my love for C!
         </p>
       </section>
   </div>
