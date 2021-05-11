@@ -1,41 +1,35 @@
 <template>
-  <div class="header">
-    <ul>
-    </ul>
-  </div>
+    <header>
+        <div class="text-container">
+            <h1>Francesco Marciani</h1>
+        </div>
+    </header>
 </template>
 
 <script>
 export default {
-  name: 'Header',
-
+        name: 'Header',
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.header{
-  /* display: flex; */
-  /* justify-content: right; */
-  position: fixed;
-  /* left: 100%; */
-  /* flex-direction: row-reverse; */
-  margin-top: 1rem;
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
 }
 
-h3 {
-  margin: 40px 0 0;
+h1{
+    font-size: clamp(45px, 10vw, 80px);
+    font-weight: 900;
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff62 110%);;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-li {
-  /* float: right; */
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.text-container {
+    margin: auto 0;
 }
 </style>

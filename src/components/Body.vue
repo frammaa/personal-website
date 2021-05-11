@@ -40,7 +40,7 @@ export default {
             {
                 id: 2,
                 title: "IJVM emulator",
-                link: "https://example.com",
+                link: "",
                 description: "Emulator written in C that executes IJVM binaries. \
                 Main features include being able to debug the binary using breakpoints, \
                 saving a snapshot of the machine state upon receiving SIGINT \
@@ -49,7 +49,7 @@ export default {
             {
                 id: 3,
                 title: "Personal website",
-                link: "https://example.com",
+                link: "https://github.com/frammaa/personal-website",
                 description: "This website, written using Vue.js. Source code available publicly on Github.",
             },
         ];
@@ -62,7 +62,8 @@ h1 {
     margin: 0;
 }
 .body-container {
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
 .body-container > * {

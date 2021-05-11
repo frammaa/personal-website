@@ -3,7 +3,7 @@
         <div class="content">
             <h3 class="title"> {{post.title}} </h3>
             <p class="text"> {{post.description}} </p>
-            <a class="text" target="_blank" :href="post.link"> open on {{getDomain(post.link)}} <i class="fas fa-external-link-alt fa-xs"></i> </a>
+            <a v-if="post.link" class="text" target="_blank" :href="post.link"> open on {{getDomain(post.link)}} <i class="fas fa-external-link-alt fa-xs"></i> </a>
         </div>
     </section>
 </template>

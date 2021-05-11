@@ -1,7 +1,7 @@
 <template>
     <div class="link-container">
         <div class="img-container">
-            <a target=”_blank” href="https://github.com/asfaloth00"><img class="link-image" src="../assets/github.svg" alt="Github link" /></a>
+            <a target=”_blank” href="https://github.com/frammaa"><img class="link-image" src="../assets/github.svg" alt="Github link" /></a>
         </div>
         <div class="img-container">
             <a target=”_blank” href="https://www.linkedin.com/in/francesco-marciani-286941173/"><img class="link-image" src="../assets/linkedin.svg" alt="Github link" /></a>

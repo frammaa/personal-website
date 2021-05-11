@@ -1,17 +1,20 @@
 <template>
     <Header msg="Header"/>
     <Body/>
+    <Footer/>
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import Header from './components/Header'
 import Body from './components/Body'
+import Footer from './components/Footer'
 
 export default {
     name: 'App',
     components: {
         Header,
         Body,
+        Footer,
     }
 }
 </script>
@@ -28,7 +31,7 @@ body {
     /* display: flex;
     flex-direction: column; */
     /* align-content: center; */
-    font-size: clamp(20px, 3vw, 25px);
+    font-size: clamp(20px, 3vw, 23px);
     margin: auto;
     font-family: 'Baloo 2', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;

@@ -1,28 +1,58 @@
 <template>
-  <h1>Francesco Marciani</h1>
-  <p>I'm a developer passionate about software design. 
-    I code mostly in C, C++, and Java, and I especially enjoy thinking about the structure of my code before I 
-    start coding. I believe this leads to an overall better structure and a codebase 
-    that's easier to maintain. I like learning new stuff so I'm super keen about good quality
-     documentation!</p>
-     <p>I also enjoy a more hands-on approach to development and I occasionally tinker with 
-       Arduino projects in my spare time. You can see some of my projects in the following page.
-     </p>
+  <div class="picture-container">
+    <Picture/>
+  </div>
+    <div class="description-container">
+      <section>
+        <h4>About</h4>
+        <p>
+          Hi, I'm a developer and university student, with a passion for well written and designed code, whatever the language.</p>
+        <p>I also enjoy a more hands-on approach to development and I occasionally tinker with 
+          Arduino projects in my spare time. You can see some of my projects in the following page.
+        </p>
+      </section>
+  </div>
+  <section>
+      <h4>Tech stack <i class="fas fa-arrow-down"></i></h4>
+      <p>My strong suits are <strong>C, Scala, and Java</strong> and I have worked with <strong>C++</strong>,
+      as well as <strong>HTML, CSS, and JavaScript</strong> and the <strong>Vue.js framework</strong>. 
+      My main operating system has been <strong>Linux</strong> for several years so I'm familiar with its environment.</p>
+  </section>
 </template>
 
 <script>
+import Picture from "./Picture"
+
 export default {
-    name: "Description"
+    name: "Description",
+    components: {
+      Picture,
+    }
 }
 </script>
 
 <style scoped>
-h1{
-  font-size: clamp(45px, 4vw, 72px);
-  font-weight: 900;
-  background: -webkit-linear-gradient(45deg, #09009f, #00ff62 90%);;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.picture-container {
+  text-align: center;
+  margin: 0;
+}
+main {
+  margin: 0;
+  /* margin-top: 3em; */
+}
+.description-container{
+  display: flex;
+  flex-direction: row;
+  flex-flow: column-reverse;
+  margin: 0;
+
+}
+h4 {
+  margin: 0;
+}
+p{
+  margin: 0;
+  margin-top: 0.4em;
+  text-align: justify;
 }
 </style>
