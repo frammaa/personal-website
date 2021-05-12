@@ -48,6 +48,15 @@ export default {
             },
             {
                 id: 3,
+                title: "Exploding Kittens",
+                link: "",
+                description: "A graphical implementation of the card game \"Exploding Kittens\" \
+                developed with three other students over the course of 4 weeks. Main features include a server capable of \
+                running several rooms concurrently and a GUI. Written in Java, I focused on the \
+                graphical aspect using the JavaFX library."
+            },
+            {
+                id: 4,
                 title: "Personal website",
                 link: "https://github.com/frammaa/personal-website",
                 description: "This website, written using Vue.js. Source code available publicly on Github.",

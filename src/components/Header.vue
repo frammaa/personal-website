@@ -12,7 +12,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 header{
     display: flex;
@@ -28,6 +27,7 @@ h1{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 .text-container {
     margin: auto 0;
