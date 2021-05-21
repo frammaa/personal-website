@@ -44,7 +44,7 @@ export default {
                 description: "Emulator written in C that executes IJVM binaries. \
                 Main features include being able to debug the binary using breakpoints, \
                 saving a snapshot of the machine state upon receiving SIGINT \
-                to later resume the exeution, and a heap implementation to work with arrays.",
+                to later resume the execution, and a heap implementation to work with arrays.",
             },
             {
                 id: 3,

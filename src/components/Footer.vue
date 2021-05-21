@@ -1,5 +1,5 @@
 <template>
-  <aside>made with Vue.js <i class="fas fa-mug-hot fa-xs"></i> </aside>
+  <aside>made with Vue.js, last updated in may 2021 <i class="fas fa-mug-hot fa-xs"></i> </aside>
 </template>
 
 <script>

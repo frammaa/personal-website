@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Script to deploy site to Github Pages. Builds project with vue, 
+# creates and pushes commit to github.
+
 # abort on errors
 set -e
 
@@ -10,7 +13,7 @@ npm run build
 cd dist
 
 # if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
+echo 'francescomarciani.com' > CNAME
 
 git init
 git add -A
